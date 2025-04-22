@@ -122,7 +122,7 @@ Create your task list from [this template](https://docs.google.com/spreadsheets/
 8. User Story ID(s) - You'll have [user stories](https://www.atlassian.com/agile/project-management/user-stories) in your design document with identifiers you can reference here. 
 9. Notes - Any other stuff you want to put in to help coordinate on tasks.
 
-: .notice}
+{: .notice }
 Each week we have a little less than 4 hours of class time. Given other interruptions and activities, if you schedule more than 3 hours pp (per person) for a week you can expect you'll need to work outside of regular class hours on it.
 
 ### Approval
