@@ -205,6 +205,9 @@ It shows that the parabola is a much better fit for the points.
 
 {% tab numpy_polyfit Code %}
 ```python
+# Add standard includes from above
+
+
 def add_inset_text(fig, position, actual, coeffs):
     # print values in an inset positioned in figure percentages [x, y, width, height]
     ax_inset = fig.add_axes(position)
@@ -258,12 +261,12 @@ def best_parabola_fit():
     # Use vector math instead of a comprehension this time (because we can)
     y_predicted_1 = coeffs_1[1] + coeffs_1[0] * np.array(x_data)
     mse_degree_1 = mean_squared_error(y_data, y_predicted_1)
-    print('MSE Degree2:', mse_degree_2, ' MSE Degree1:', mse_degree_1)
+    print('RMSE Degree2:',  np.sqrt(mse_degree_2), ' RMSE Degree1:', np.sqrt(mse_degree_1))
     
     # add MSE to our inset text box
     ax_inset = add_inset_text(fig, [0.15, 0.50, 0.35, 0.28], actual, coeffs_2)
-    ax_inset.text(0.6, 0.90, 'MSE:', ha='left', va='top', fontsize=14)
-    text = f'Line:{mse_degree_1:.0f}\nPara:{mse_degree_2:.0f}'
+    ax_inset.text(0.7, 0.90, 'RMSE:', ha='left', va='top', fontsize=14)
+    text = f'Line:{np.sqrt(mse_degree_1):.0f}\nPara:{np.sqrt(mse_degree_2):.0f}'
     ax_inset.text(0.65, .70, text, ha='left', va='top', fontsize=12)
     
     # since plt.plot() does not offer ax=ax argument, and without it we plot on the inset,
@@ -273,7 +276,9 @@ def best_parabola_fit():
     
     # Need to set the legend on the axis to get things to show up correctly,
     # even when setting label=''values' during plots, we need to set the label strings here.
-    ax.legend(['Parabola Fit', 'Line Fit', 'Actual'], loc='lower right')
+    ax.legend(['Actual', 'Parabola Fit', 'Line Fit', ], loc='lower right')
+
+best_parabola_fit()
 ```
 {% endtab %}
 
