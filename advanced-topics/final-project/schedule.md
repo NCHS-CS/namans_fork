@@ -22,7 +22,7 @@ Your task list **must** have weekly goals. You can update these each week but th
 | Fri, April 19 | 16| First Design Doc Due (Phase 3)<br>Start coding |
 | Mon, May 5 | 19 | Mid-point check: Stabilize, Refactor, Redocument |
 | | 16 - 22 | Development |
-| Mon, Jun 2 | 23 | Final Design Doc Due |
+| Mon, Jun 2 | 23 | Final Project Due |
 | | 23, 24 | Presentations - 2 / day - Seniors first |
 | Mon, June 9 | 24 | Last day for seniors | 
 | Fri, June 20 | 26| Last day of school |
