@@ -314,6 +314,80 @@ MSE values are most valuable when compared against another MSE value. In this ca
 parabola's MSE value is close to half the value of the line's MSE.  
 {% endtab %}
 
+{% tab numpy_polyfit Correlations %}
+```python
+
+"""
+In this example we take two different, but similar, parabolas and compare 
+their MSE over time with a rolling average.
+Note: You will have to normalize your data with a std dev normalization
+first if you are using data with different units. 
+(zscore is a common way to do this)
+
+i.e. y_norm = scipy.stats.zscore(y)
+"""
+
+def parabola(x, a, b, c):
+    return a * x**2 + b * x + c
+
+def generate_points(a, b, c, noise):
+    x = np.arange(3, 50, 2)
+    y = np.array([parabola(val, a, b, c) + random.randint(-noise, noise) for val in x])
+    return x, y
+
+# 1. Data generation
+actual1 = (0.45, 2.5, -7)
+actual2 = (0.50, 2.0, -10)
+noise_level = 150
+
+x_data, y1 = generate_points(*actual1, noise_level)
+_,     y2 = generate_points(*actual2, noise_level)
+
+# 2. Rolling RMSE calculation (5-point window)
+window = 5
+rolling_rmse = []
+for i in range(len(x_data)):
+    if i + 1 < window:
+        rolling_rmse.append(np.nan)
+    else:
+        w1 = y1[i-window+1:i+1]
+        w2 = y2[i-window+1:i+1]
+        mse = mean_squared_error(w1, w2)
+        rolling_rmse.append(np.sqrt(mse))
+
+# 3. Plotting
+fig, ax1 = plt.subplots(figsize=(10, 5))
+
+# Left axis: rolling RMSE
+ax1.plot(x_data, rolling_rmse, marker='o', color='orange',
+         label='Rolling RMSE (5-point window)')
+ax1.set_xlabel("Simulated Time")
+ax1.set_ylabel("RMSE")
+ax1.grid(True, linestyle='--', linewidth=0.5)
+ax1.legend(loc='upper left')
+
+# Right axis: raw parabola data
+ax2 = ax1.twinx()
+ax2.plot(x_data, y1, marker='^', color='blue', label='Parabola 1 (raw)')
+ax2.plot(x_data, y2, marker='s', color='red',  label='Parabola 2 (raw)')
+ax2.set_ylabel("Value")
+
+# Combine legends from both axes
+h1, l1 = ax1.get_legend_handles_labels()
+h2, l2 = ax2.get_legend_handles_labels()
+ax1.legend(h1 + h2, l1 + l2, loc='upper right')
+
+ax1.set_title("Rolling RMSE and Original Data Over Time")
+plt.tight_layout()
+plt.show()
+```
+
+{% endtab %}
+
+{% tab numpy_polyfit Correlation plot %}
+![numpy-correlation](../static/numpy-correlation.png)
+{% endtab %}
+
 {% endtabs %}
 
 ## Curve Fit
