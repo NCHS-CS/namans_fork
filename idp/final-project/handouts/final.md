@@ -12,8 +12,6 @@ Your code should be completely finalized and submitted. The code will be reviewe
 2) to estimate the quantity and quality of work.  
 3) to validate that you met your Challenge Goals.  
 
-The code will not be directly graded because it is simply the tool to generate the product of value--the report!  
-
 ## Overview
 
 You will deliver the following:  
@@ -47,17 +45,9 @@ Work hard to create plots that speak volumes!
 
 ## Project Rubric
 
-_Final rubric TBD_
+See [rubrics](./rubric).
 
-The following are used to determine your score:  
-* Professionally written    
-* Creativity, quantity, and quality of plots   
-    * Visualizations are inspiring, inventive, resourceful and motivating  
-* Difficulty of your project as reviewed in the Challenge Goals section   
-* Code...     
-    * illustrates your effort to achieve your Challenge Goals  
-    * follows the project structure provided for you  
-    * has citations for all sources used. Note that all sources must augment _your_ achievement and extend _your_ understanding<a href="#footnotes"><sup>[3]</sup></a>      
+Note that all sources must augment _your_ achievement and extend _your_ understanding<a href="#footnotes"><sup>[3]</sup></a>      
 
 ## Footnotes
 [1] Articles are heavily influenced by the author's desire to sell their work. Articles are biased in several big ways: Selection bias, Confirmation bias, Political bias, Commercial bias and Cultural bias. Consider the source of the publication (Fox vs CNN). Just because someone published it on the internet does not make it true!  

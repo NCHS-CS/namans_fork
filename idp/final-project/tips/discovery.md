@@ -47,12 +47,6 @@ You will extensively document your data to illustrate that you understand it. He
         * **Errors** in the data can be rampant. Perhaps there are only a few critical errors to be aware of. For example, a column might represent inches of rain per day, but in some cases unbelievable values were used (e.g. 203.4). Discuss what validation you might execute or ways you’ll catch outliers.  
         * **Non-conformity** can destroy your ability to join tables. 
 
-## Challenge Description
-Read the list of possible challenge tasks and make sure you understand what it takes to meet the requirements of a Challenge Goal. Then, set aside ample time to completely fulfill the goal.  
-
-Many students underestimate the amount of work to meet a Challenge. A typical mistake is to assume that they can meet the demands of "Multiple Datasets" because they have a few datasets downloaded. In reality, to qualify you must work with **four** or more datasets what require **merging** together in various ways. The datasets need to have a valid reason for merging; the merging must add value to the research.   
-
-Others think that learning a new library will be quick and easy. They end up either not doing it at all or slapping on a piece of code that took 5-minutes to look up on the internet. The size of a student's accomplishments will impact a student's grade. Note that the amount of time spent is not graded, but it is very difficult to have a large accomplishment in a small amount of time.    
 
 ## Web Scraping
 For web-scraped data, you should have at least started your attempt to scrape the data. The full collection of the data isn’t due until the next Deliverable (Organize). However, you still need to describe the data fully as you would any other dataset. 

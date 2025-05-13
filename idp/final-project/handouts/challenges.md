@@ -6,6 +6,13 @@ title: Discovery Challenges
 
 Challenge goals help us to define expectations while still offering flexibility for you to design your own project. Meeting the requirements of a challenge goal is described here.
 
+## Challenge Description
+Read the list of possible challenge tasks below and make sure you understand what it takes to meet the requirements of a Challenge Goal. Then, set aside ample time to completely fulfill the goal.  
+
+Many students underestimate the amount of work to meet a Challenge. A typical mistake is to assume that they can meet the demands of "Multiple Datasets" because they have a few datasets downloaded. In reality, to qualify you must work with **four** or more datasets what require **merging** together in various ways. The datasets need to have a valid reason for merging; the merging must add value to the research.   
+
+Others think that learning a new library will be quick and easy. They end up either not doing it at all or slapping on a piece of code that took 5-minutes to look up on the internet. The size of a student's accomplishments will impact a student's grade. Note that the amount of time spent is not graded, but it is very difficult to have a large accomplishment in a small amount of time.    
+
 ## Valuable Unit Testing
 
 To qualify, you must deliver valuable Unit Tests of the methods that clean and organize your data. You need to provide some fake data and run the tests that validate the results. You should use Python's Unit Test framework. Look at past warmup or projects where there was a `run_tests.py` file and tests folder. Copy that infrastructure.
