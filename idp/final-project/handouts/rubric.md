@@ -34,7 +34,7 @@ Below is the grading rubric for the Discovery Document, structured with three pe
 | **Total Points:**                                        |                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                        | **100**                                                                                                                                                                                               |
 
 
-## Final Delivery (200 pts)
+## Final Delivery (250 pts)
 
 Your final delivery will be due according to the schedule posted and will be comprised of the following elements for grading.
 
