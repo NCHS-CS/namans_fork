@@ -66,7 +66,12 @@ You must list at least **three main features** that your Java Swing application 
 
 What extra features or stretch goals are you planning to implement if time permits? List the features that are bonus and completely unnecessary. These will be added only as time permits.
 
-{% capture mycontent %}
+### Example Feature Matrix
+
+
+{: .example }
+> Here's a simple example of a feature table with **MVP**, **Core**, and **Stretch** features for a **ride-sharing app**: 
+
 | Feature Category | MVP Features (Essential for Launch) | Core Features (Enhance Experience) | Stretch Features (Future Enhancements) |
 |-----------------|-----------------------------------|-----------------------------------|-------------------------------------|
 | User Management | User registration & login | Profile verification & preferences | AI-based ride recommendations |
@@ -74,23 +79,10 @@ What extra features or stretch goals are you planning to implement if time permi
 | Payment | Cash or manual payment handling | In-app payments & fare estimation | Cryptocurrency payments |
 | Navigation | Basic driver-passenger location sharing | Real-time traffic-based route optimization | Augmented reality (AR) navigation |
 | Safety | Driver & passenger ratings | Emergency SOS button | AI-driven fraud detection & background checks |
-{% endcapture %}
 
-{: .example }
-> Here's a simple example of a feature table with **MVP**, **Core**, and **Stretch** features for a **ride-sharing app**: 
+For each of these features listed in the first column you should include more detailed specifics in separate paragraphs, like:
+> **User Management:** This will include how users connect to the system, how they are authenticated and any additional information that is attached to their user profile...
 
-<details>
-  <summary>
-    Example Feature Matrix
-  </summary>
-  {{ mycontent | markdownify }}
-
-  For each of these features listed in the first column you should include more detailed specifics in separate paragraphs.
-
-  **User Management**
-  > 
-  > This will include how users connect to the system, how they are authenticated and any additional information that is attached to their user profile...
-</details>
 
 ### Learning Targets and Challenge Goals
 

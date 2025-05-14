@@ -28,10 +28,10 @@ There are MANY sources of data and you can seek out anything and everything you 
 
 * A variety of data sets are available from [UW Libraries](http://guides.lib.washington.edu/content.php?pid=135867&sid=1165959)  
 
-{ : .warning }
+{: .warning }
 The following are blocked at NCHS, but you may find them useful to browse in your own time.
 * [Reddit Data Sets](https://www.reddit.com/r/datasets/)  
-* [Kaggle Datasets](www.kaggle.com) (Thousands of datasets across domains (e.g., health, sports) with example notebooks. Ideal for beginners.)
+* [Kaggle Datasets](https://www.kaggle.com) (Thousands of datasets across domains (e.g., health, sports) with example notebooks. Ideal for beginners.)
 
 ## Other datasets you may find usueful
 
