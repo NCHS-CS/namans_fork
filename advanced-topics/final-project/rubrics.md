@@ -54,7 +54,11 @@ The following rubrics break out the assessment by different areas.
 
 ## <a name='Updates'></a>Updates (10 Pts)
 
-There will be 10 points awarded for submitting your updated Design Document to match your finished project.
+Your updates will be graded out of 10 points. You must submit your updated Design Document to match your finished project
+
+This update should include updates to your design diagrams and any changes on the algorithms that you actually ended up implementing (added as a new section, `Updated Design`) as well as a clear detailed description of the actual features completed in your final project.
+
+Add a `Lessons Learned` section - this will be a half page summary from each team member of all of your lessons learned from the project that you have been tracking each week.
 
 ## <a name='Functionality50'></a>Functionality (40 Pts)
 
