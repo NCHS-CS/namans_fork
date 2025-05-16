@@ -38,7 +38,7 @@ Below is the grading rubric for the Discovery Document, structured with three pe
 
 Your final delivery will be due according to the schedule posted and will be comprised of the following elements for grading.
 
-### Presentation (100 pts) [link](./presentation.md)
+### Presentation (100 pts) [link](./presentation)
 
 | Category                  | Excellent                                                                           | Good                                                              | Adequate                                                            | Needs Work                                                      |
 | ------------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------- |
@@ -47,7 +47,7 @@ Your final delivery will be due according to the schedule posted and will be com
 | **Visual Aids / Slides**  | Slides are clean, relevant, and enhance the explanation. Visuals aid comprehension. | Slides are mostly effective and support the talk.                 | Slides are inconsistent or distract from the message.               | Slides are poorly prepared or missing key visuals.              |
 | **Team Collaboration**    | All team members present and contribute meaningfully. Seamless transitions.         | All members present; most contribute clearly.                     | Some imbalance in contribution; awkward transitions.                | One or more members absent or significantly underparticipating. |
 
-### Report (100 pts) [link](./final.md)
+### Report (100 pts) [link](./final)
 
 | Category                          | Excellent                                                                                                                                                                                             | Good                                                                                  | Adequate                                    | Needs Work                                            |
 | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
