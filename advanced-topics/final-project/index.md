@@ -16,7 +16,6 @@ Projects must be approved to assure that they are achievable yet complex enough.
 - [Project Artifacts](#project-artifacts)
 - [Learning Journal](#learning-journal)
 	- [Examples](#examples)
-- [Past Project Examples](#past-project-examples)
 
 <!-- vscode-markdown-toc-config
 	numbering=false
@@ -65,14 +64,7 @@ Add to your github doc folder (if not there) a `learnings.md` document with the 
 
 _Each learning needs to relate to a specific experience and/or section of code. Be ready to elaborate if asked._
 
-##  <a name='PastProjectExamples'></a>Past Project Examples
-
-Following are a set of students previous **Design Documents**. Keep in mind that the template for this years project has been modified from these examples, but they form a good starting point for you to review the level of expectations for the project work.
-
-Following are a set of students previous **Design Documents**. Keep in mind that the template for this years project has been modified from these examples, but they form a good starting point for you to review the level of expectations for the project work.
-
-[Past Student's Design Documents](https://drive.google.com/drive/folders/1HarP8I5OjYZteGM528fq-PHQC0Din5Gg?usp=sharing)
-
-[Past Student's Presentations](https://drive.google.com/drive/folders/1janzBHDEuJSPTm0tTyvf3swXDFIAfNxm?usp=sharing)
-
 [Task List Template](https://docs.google.com/spreadsheets/d/1F2ba3ekH2hg-wLWOCXHkyzi8Q8jizi4QHmhfRdichcU/edit?usp=sharing) - Use this to start your task list
+
+{: .example }
+Past project examples are [here](./examples/index)

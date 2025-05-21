@@ -56,9 +56,15 @@ The following rubrics break out the assessment by different areas.
 
 Your updates will be graded out of 10 points. You must submit your updated Design Document to match your finished project
 
-This update should include updates to your design diagrams and any changes on the algorithms that you actually ended up implementing (added as a new section, `Updated Design`) as well as a clear detailed description of the actual features completed in your final project.
+This update should include updates to your design diagrams and any changes on the algorithms that you actually ended up implementing.
 
-Add a `Lessons Learned` section - this will be a half page summary from each team member of all of your lessons learned from the project that you have been tracking each week.
+### New Sections
+
+Add the following sections to your design document.
+
+1. `Updated Design` - Minimum required to update your actual completed class diagram - you may also update other diagrams, but it is not required.
+2. `Final Features` - Create a table of your expected "core features" and a second column of your actual features implemented.
+3. `Lessons Learned` - Move your original "Learning Targets and Goals" to a new table and add a second column that is a summary of `Actual lessons learned`. Summarize your lessons learned throughout the project here.
 
 ## <a name='Functionality50'></a>Functionality (40 Pts)
 
@@ -72,6 +78,11 @@ Add a `Lessons Learned` section - this will be a half page summary from each tea
 | **Class Design** | Strong use of all: abstraction, encapsulation, inheritance, polymorphism. | Use of inheritance and encapsulation is good. Reasonable set of classes. | Classes used, but not encapsulated well. Over or under-designed. | Few classes. Bad design. |
 
 ## <a name='Presentation'></a>Presentation (10 Pts)
+
+You will be peer reviewed for your presentation but overall grade for the presentation will be assessed as follows below.
+
+If you are not present on your presentation day you may present on the first day back to class for full credit but your partner will still need to present separately on the presentation day.
+
 
 | **Criteria**               | **Exemplary (100%)** | **Satisfactory (80%)** | **Not Yet (60%)** | **Unassessable (0%)** |
 |---------------------------|----------------------|------------------------|-------------------|------------------|
