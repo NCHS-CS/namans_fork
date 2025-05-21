@@ -68,6 +68,9 @@ Add the following sections to your design document.
 
 ## <a name='Functionality50'></a>Functionality (40 Pts)
 
+{: .warning }
+If you copy code (even small amounts) from the internet, from AI or other sources, you **MUST** attribute the origin of that code or you will receive a overall penalty grade. (Add the attribution links to your README.md file)
+
 | **Criteria**               | **Exemplary (100%)** | **Satisfactory (80%)** | **Not Yet (60%)** | **Unassessable (0%)** |
 |---------------------------|----------------------|------------------------|-------------------|------------------|
 | **Quality (Bugs)** | No major bugs or glitches. Program does not crash. All basic use cases work as advertised. Only minor bugs present. | Few major bugs. Program does not crash. Behavior is mostly correct. | Some major bugs. Program seldom crashes. | Major bugs prevalent. Important behavior malfunctions. |
