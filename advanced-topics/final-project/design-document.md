@@ -1,6 +1,7 @@
 ---
 layout: default_dl
-parent: AT - Final Project
+parent: Final Project
+grand_parent: Advanced Topics
 title: Design Document
 nav_order: 10
 ---

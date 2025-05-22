@@ -1,7 +1,8 @@
 ---
 layout: default_dl
 title: Examples
-parent: AT - Final Project
+parent: Final Project
+grand_parent: Advanced Topics
 nav_order: 100
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default_dl
-parent: AT - Final Project
+parent: Final Project
+grand_parent: Advanced Topics
 title: Schedule
 nav_order: 5
 ---

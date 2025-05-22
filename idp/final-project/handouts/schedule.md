@@ -1,6 +1,7 @@
 ---
 layout: default_dl
 parent: Final Project
+grand_parent: IDP
 title: Schedule
 nav_order: 2
 ---
