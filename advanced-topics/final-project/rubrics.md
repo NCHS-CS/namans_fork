@@ -54,17 +54,11 @@ The following rubrics break out the assessment by different areas.
 
 ## <a name='Updates'></a>Updates (10 Pts)
 
-Your updates will be graded out of 10 points. You must submit your updated Design Document to match your finished project
+Your updates will be graded out of 10 points. You must submit your updated Design Document to match your finished project.
 
-This update should include updates to your design diagrams and any changes on the algorithms that you actually ended up implementing.
+This update should include updates to your design diagrams and any changes on the algorithms that you actually ended up implementing. See the [Final Updates](doc_updates) page for more information.
 
-### New Sections
 
-Add the following sections to your design document.
-
-1. `Updated Design` - Minimum required to update your actual completed class diagram - you may also update other diagrams, but it is not required.
-2. `Final Features` - Create a table of your expected "core features" and a second column of your actual features implemented.
-3. `Lessons Learned` - Move your original "Learning Targets and Goals" to a new table and add a second column that is a summary of `Actual lessons learned`. Summarize your lessons learned throughout the project here.
 
 ## <a name='Functionality50'></a>Functionality (40 Pts)
 
