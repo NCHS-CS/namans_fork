@@ -8,20 +8,6 @@ nav_order: 12
 
 The following section includes detailed design document (Something every engineer will spend a lot of time on. Often the more time spent here the less time it takes to get the project work complete as you will save time by avoiding creating project elements that you may just have to throw out or redo)
 
-## User Stories
-
-You should add user stories to your project in the following format. These help you identify any missing tasks or functionality. You can track that you satisfy all your user stories by adding identifiers to each user story and referencing them in your task list with the user stories column.
-
-As a `who` I want to `behavior` so that I can `benefit`.
-
-- `who` provides the customer: context and perspective
-- `behavior` describes what is to be delivered
-- `benefit` helps define why want to do it, as well as what “done” means. It allows us to validate that we achieved it.
-
-**Examples**
-
-- As a Developer I want to have my game board saved in a file so that I can be data driven and design multiple boards that work without having to change the code.
-- As a Player I want the avatar character to respond to the arrow keys so that I can move my avatar on the screen.
 
 ## Testing Strategy
 

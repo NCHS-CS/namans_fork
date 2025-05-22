@@ -35,6 +35,29 @@ You should take your previous weekly schedule and add sub-tasks that are well de
 | Full Shunting Yard Calculator. | All components are integrated together to make a fully functional calculator. |
 | Extra operators. | If time, more buttons and operations are added. Example: modulus, square root, log, exponentiation.  |
 
+## User Stories
+
+As part of your detailed task list, you should add user stories to a separate tab in your spreadsheet. It should be a table mapping a ID number to the user story.
+
+But _what_ are 'user stories'? They describe features of a software from a user or developer's perspective, which helps developers identify what they need to implement, and more important, WHY they need to implement it.
+
+The general format is as follows:
+
+> As a `who` I want to `behavior` so that I can `benefit`.
+
+- `who` provides the customer: context and perspective
+- `behavior` describes what is to be delivered
+- `benefit` helps define why want to do it, as well as what “done” means. It allows us to validate that we achieved it.
+
+The user stories tab in your spreadsheet might look like the following:
+
+| ID | User Story |
+| ---- | --------------------- |
+| 1 | As a **Developer,** I want to have my **game board saved in a file** so that **I can be data driven and design multiple boards that work without having to change the code.** |
+| 2 | As a **Player,** I want **the avatar character to respond to the arrow keys** so that **I can move my avatar on the screen.** |
+
+In your main task list, you should fill out the User Story IDs column with the IDs of the user stories that match to it. For example, if I have a task about saving the game board to a file, I would put "1" in the User Story IDs column. **You must have each task map to at least one user story, but they can map to multiple.**
+
 ## Approval
 
 You must receive teacher approval to continue to Phase 3.
