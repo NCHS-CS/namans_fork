@@ -1,15 +1,13 @@
 ---
 layout: default_dl
 title: Examples
-parent: AT - Final Project
+parent: Final Project
+grand_parent: Advanced Topics
 nav_order: 100
 ---
 
-These are examples of different components of the final project for  Advanced Topics.
 
-##  <a name='PastProjectExamples'></a>Past Project Examples
-
-Following are a set of students previous **Design Documents**. Keep in mind that the template for this years project has been modified from these examples, but they form a good starting point for you to review the level of expectations for the project work.
+# <a name='PastProjectExamples'></a>Past Project Examples
 
 Following are a set of students previous **Design Documents**. Keep in mind that the template for this years project has been modified from these examples, but they form a good starting point for you to review the level of expectations for the project work.
 

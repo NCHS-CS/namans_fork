@@ -1,6 +1,7 @@
 ---
 layout: default_dl
 parent: Final Project
+grand_parent: IDP
 title: Final Code and Report
 nav_order: 30
 ---

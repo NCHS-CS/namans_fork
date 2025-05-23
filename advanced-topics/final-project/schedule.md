@@ -1,13 +1,14 @@
 ---
 layout: default_dl
-parent: AT - Final Project
+parent: Final Project
+grand_parent: Advanced Topics
 title: Schedule
 nav_order: 5
 ---
 
 ##  <a name='Timeline'></a>Timeline 2025
 
-You will have approximately X weeks to complete your final project. 
+You will have approximately 12 weeks to complete your final project. 
 
 The final project starts after Tic Tac Toe. 
 
@@ -21,8 +22,9 @@ Your task list **must** have weekly goals. You can update these each week but th
 | April 7 - 11 | 15 | Spring Break |
 | Fri, April 19 | 16| First Design Doc Due (Phase 3)<br>Start coding |
 | Mon, May 5 | 19 | Mid-point check: Stabilize, Refactor, Redocument |
-| | 16 - 22 | Development |
+| | 16-22 | Development |
+| | 22 | [Update Design Document](doc_updates) |
 | Mon, Jun 2 | 23 | Final Project Due |
-| | 23, 24 | Presentations - 2 / day - Seniors first |
+| | 23-24 | Presentations - 2 / day - Seniors first |
 | Mon, June 9 | 24 | Last day for seniors | 
 | Fri, June 20 | 26| Last day of school |
