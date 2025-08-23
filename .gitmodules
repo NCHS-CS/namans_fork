@@ -1,0 +1,3 @@
+[submodule "external/cse163"]
+	path = external/cse163
+	url = https://github.com/NCHS-CS/cse163-nchs

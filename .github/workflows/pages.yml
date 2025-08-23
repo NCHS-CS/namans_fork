@@ -31,6 +31,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+        submodules: recursive
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
@@ -45,6 +47,57 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      # --- JUPYTERLITE BUILD (direct to _site/lite) ---
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install JupyterLite + Pyodide kernel
+        run: |
+          python -m pip install -U pip
+          pip install jupyterlite jupyterlite-pyodide-kernel
+
+      # (Optional) Pre-bundle wheels for offline installs (e.g., seaborn)
+      - name: Download wheels (optional)
+        run: |
+          mkdir -p wheels
+          pip download --only-binary=:all: -d wheels seaborn==0.13.2
+
+      - name: Build JupyterLite directly into _site/lite
+        run: |
+          CONTENT_PATH=external/cse163   # <-- change if your notebooks are elsewhere
+          rm -rf _site/lite
+          jupyter lite build \
+            --contents "$CONTENT_PATH" \
+            --output-dir _site/lite \
+            --base-url /lite/ \
+            $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
+          # sanity check
+          test -f _site/lite/jupyter-lite.json
+
+      - name: Add .nojekyll at artifact root
+        run: touch _site/.nojekyll
+      # --- end JUPYTERLITE BUILD ---
+      
+      # --- MyST BUILD ---
+      - name: Install MyST
+        run: npm install -g mystmd
+
+      - name: Build MyST (static HTML)
+        working-directory: external/cse163
+        env:
+          BASE_URL: /notes
+        run: myst build --html
+
+      - name: Merge MyST into Jekyll artifact
+        run: |
+          mkdir -p _site/notes
+          rsync -a external/cse163/_build/html/ _site/notes/
+          touch _site/.nojekyll
+      # --- end MyST ---
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
