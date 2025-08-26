@@ -1,7 +1,7 @@
 {
   "name": "Jekyll + JupyterLite (Universal)",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "postCreateCommand": "bundle install && python -m pip install --user -U pip && python -m pip install --user jupyterlite",
+  "postCreateCommand": "gh auth login --with-token <<< \"$GH_TOKEN\" && gh auth setup-git && bundle install && python -m pip install --user -U pip && python -m pip install --user jupyterlite",
   "forwardPorts": [4000],
   "portsAttributes": {
     "4000": { "label": "Site preview", "onAutoForward": "openBrowser" }
