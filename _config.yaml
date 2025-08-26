@@ -38,6 +38,7 @@ enable_copy_code_button: true
 plugins:
   - jekyll-tabs
   - jekyll-spaceship
+  - jekyll-redirect-from
 
 include:
   - idp/static
