@@ -67,13 +67,8 @@ jobs:
 
       - name: Build JupyterLite directly into _site/lite
         run: |
-          CONTENT_PATH=external/cse163   # <-- change if your notebooks are elsewhere
           rm -rf _site/lite
-          jupyter lite build \
-            --contents "$CONTENT_PATH" \
-            --output-dir _site/lite \
-            --base-url /lite/ \
-            $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
+          jupyter lite build --contents external/cse163 --output-dir _site/lite --base-url lite/ $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
           # sanity check
           test -f _site/lite/jupyter-lite.json
 
