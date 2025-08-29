@@ -5,6 +5,9 @@ favicon_ico: "/assets/images/favicon.ico"
 url: https://nchs-cs.github.io/
 logo: "/assets/images/Jaguar_Logo_Small.png"
 
+exclude:
+  - external/
+
 aux_links:
   Site GitHub: https://github.com/NCHS-CS/nchs-cs.github.io
 
