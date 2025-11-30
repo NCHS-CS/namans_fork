@@ -86,7 +86,6 @@ jobs:
 
           jupyter lite build \
             --config jupyter_lite_config.json \
-            --contents . \
             --output-dir ../../_site/workspace \
             --base-url workspace/ \
             $( [ -d ../../wheels ] && echo --piplite-wheels "../../wheels/*.whl" )
