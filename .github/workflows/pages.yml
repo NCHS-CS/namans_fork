@@ -72,6 +72,13 @@ jobs:
           # sanity check
           test -f _site/lite/jupyter-lite.json
 
+      - name: Build JupyterLite directly into _site/workspace
+        run: |
+          rm -rf _site/workspace
+          jupyter lite build --config external/cse163/jupyter_lite_config.json --output-dir _site/workspace --base-url workspace/ $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
+          # sanity check
+          test -f _site/workspace/jupyter-lite.json
+
       - name: Add .nojekyll at artifact root
         run: touch _site/.nojekyll
       # --- end JUPYTERLITE BUILD ---
