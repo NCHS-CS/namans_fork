@@ -1,31 +1,21 @@
-# This workflow uses actions that are not certified by GitHub.
-# They are provided by a third-party and are governed by
-# separate terms of service, privacy policy, and support
-# documentation.
-
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
 name: Deploy Jekyll site to Pages
 
 on:
   push:
     branches: ["main"]
 
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: true
 
 jobs:
-  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -33,22 +23,25 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Not needed with a .ruby-version file
-          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
-          cache-version: 0 # Increment this number if you need to re-download cached gems
+          ruby-version: '3.3'
+          bundler-cache: true
+          cache-version: 0
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
+
       - name: Build with Jekyll
-        # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
 
-      # --- JUPYTERLITE BUILD (direct to _site/lite) ---
+      # --- JUPYTERLITE BUILD ---
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
@@ -65,25 +58,45 @@ jobs:
           mkdir -p wheels
           pip download --only-binary=:all: -d wheels seaborn==0.13.2
 
-      - name: Build JupyterLite directly into _site/lite
+      # Build JupyterLite app into _site/lite
+      - name: Build JupyterLite into _site/lite
+        working-directory: external/cse163
         run: |
-          rm -rf _site/lite
-          jupyter lite build --config external/cse163/jupyter_lite_config.json --contents external/cse163 --output-dir _site/lite --base-url lite/ $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
-          # sanity check
-          test -f _site/lite/jupyter-lite.json
+          # Clean previous lite output and lite build cache (local to this dir)
+          rm -rf ../../_site/lite
+          rm -f .jupyterlite.doit.db .jupyterlite.doit.json
 
-      - name: Build JupyterLite directly into _site/workspace
-        run: |
-          rm -rf _site/workspace
-          rm -rf .jupyterlite.doit.db .jupyterlite.doit.json # clean doit cache to avoid issues from prior build
-          jupyter lite build --config external/cse163/jupyter_lite_config.json --output-dir _site/workspace --base-url workspace/ $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
+          jupyter lite build \
+            --config jupyter_lite_config.json \
+            --contents . \
+            --output-dir ../../_site/lite \
+            --base-url lite/ \
+            $( [ -d ../../wheels ] && echo --piplite-wheels "../../wheels/*.whl" )
+
           # sanity check
-          test -f _site/workspace/jupyter-lite.json
+          test -f ../../_site/lite/jupyter-lite.json
+
+      # Build JupyterLite workspace into _site/workspace
+      - name: Build JupyterLite into _site/workspace
+        working-directory: external/cse163
+        run: |
+          # Clean previous workspace output and lite build cache (local to this dir)
+          rm -rf ../../_site/workspace
+          rm -f .jupyterlite.doit.db .jupyterlite.doit.json
+
+          jupyter lite build \
+            --config jupyter_lite_config.json \
+            --contents . \
+            --output-dir ../../_site/workspace \
+            --base-url workspace/ \
+            $( [ -d ../../wheels ] && echo --piplite-wheels "../../wheels/*.whl" )
+
+          # sanity check
+          test -f ../../_site/workspace/jupyter-lite.json
 
       - name: Add .nojekyll at artifact root
         run: touch _site/.nojekyll
-      # --- end JUPYTERLITE BUILD ---
-      
+
       # --- MyST BUILD ---
       - name: Install MyST
         run: npm install -g mystmd
@@ -102,10 +115,8 @@ jobs:
       # --- end MyST ---
 
       - name: Upload artifact
-        # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
 
-  # Deployment job
   deploy:
     environment:
       name: github-pages
