@@ -75,6 +75,7 @@ jobs:
       - name: Build JupyterLite directly into _site/workspace
         run: |
           rm -rf _site/workspace
+          rm -rf .jupyterlite.doit.db .jupyterlite.doit.json # clean doit cache to avoid issues from prior build
           jupyter lite build --config external/cse163/jupyter_lite_config.json --output-dir _site/workspace --base-url workspace/ $( [ -d wheels ] && echo --piplite-wheels "wheels/*.whl" )
           # sanity check
           test -f _site/workspace/jupyter-lite.json
