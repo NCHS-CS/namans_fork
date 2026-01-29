@@ -66,3 +66,6 @@ defaults:
       type: "pages"
     values:
       parent: Machine Learning
+
+exclude:
+  - "idp/final-project"
