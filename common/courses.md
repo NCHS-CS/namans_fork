@@ -6,6 +6,7 @@ parent: NCHS Computer Science
 
 # NCHS Courses
 
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ4RoHqutMvvcVd3Lz0qwU7iR5CXQCtewss3GB7kKJZpiEbsX1ZlfXsfJUyBheVYg/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## AP Computer Science Principles
 
@@ -32,5 +33,20 @@ This is a college-level project-based course that introduces the basic elements 
 <dt>Notes</dt><dd>Up to 5 college credits available</dd>
 </dl>
 
+## Advanced Programming Topics (APT)
 
+Advanced Programming Topics is a senior-level computer science course focused on data structures, algorithms, and building well-designed Java applications. Students study core structures from the Java Collections Framework—including lists, sets, maps, stacks, and queues—and learn how to choose appropriate implementations based on correctness, efficiency, and use case. Algorithmic topics include expression processing, stack- and queue-based evaluation, and performance analysis using Big-O notation.
 
+Students develop graphical, event-driven programs using JavaFX, apply object-oriented design principles, and write unit tests to validate program behavior. Version control using Git and GitHub is used throughout the course to support iterative development and collaboration.
+
+During the second semester, students complete a self-directed, semester-long project in which they design, research, and build a Java application of their choice. This capstone emphasizes project planning, independent learning, and real-world software development practices.
+
+## Intermediate Data Programming (IDP)
+
+Dive deeper into data, programming, and modern AI with Python. This course builds on foundational programming skills while exploring how data and algorithms power intelligent systems; especially language models and neural networks.
+
+A central component of the course is a student-driven data science research project. Students apply Python techniques such as data cleaning, transformation, aggregation, visualization, and statistical analysis to investigate a real-world question using a dataset of their choice. Working in Jupyter Notebooks with tools like Pandas, NumPy, and scikit-learn, students design experiments, analyze results, and communicate findings through written analysis and visual evidence—mirroring authentic data science workflows.
+
+The course also introduces artificial intelligence concepts through hands-on exploration of language models. Students study how computers learn from text using n-grams, prediction, and neural network ideas, and examine how modern systems like large language models (LLMs) work at a conceptual level. Ethical considerations such as bias, data quality, and responsible AI use are emphasized throughout.
+
+This course prepares students to think critically, work with real data, and understand the technology behind today’s AI-driven world.
