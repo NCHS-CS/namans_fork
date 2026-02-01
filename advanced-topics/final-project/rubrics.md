@@ -10,7 +10,7 @@ nav_order: 20
 {: .no_toc }
 
 {: .notice }
-There are three main rubric categories that are detailed in the following sections for 145 points (subject to change)
+There are three main rubric categories that are detailed in the following sections.
 
 1. TOC
 {:toc}
