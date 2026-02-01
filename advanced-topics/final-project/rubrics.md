@@ -85,11 +85,11 @@ If you are not present on your presentation day you may present on the first day
 
 # Ongoing (30)
 
-## <a name='Professionalism'></a>Professionalism (30 pts)
+## <a name='Professionalism & Classwork'></a>Professionalism & Classwork
 
 This section will be ongoing through the entire project lifecycle and count towards the final grade.
 
 | **Criteria**               | **Exemplary (100%)** | **Satisfactory (80%)** | **Not Yet (60%)** | **Unassessable (0%)** |
 |---------------------------|----------------------|------------------------|-------------------|------------------|
-| **Demo Days** | Clear achievements made during each demo. Shared learning along with functionality. Tasklist is completely up to date. | Some progress is demonstrated. Task List has some updates. | Progress is missing or too small. Worksheet is missing important information. | No progress is discernible. Worksheet is inadequate. |
-| **Independence** | No instances of being off task. Asks for hints occasionally, independently researches, demonstrates problem-solving abilities. | 1 or 2 reminders needed to be on task. Needs help with difficult issues but demonstrates ability to debug and grow independently. | 3+ reminders to get back on task. Consistently unable to resolve (minor) issues without assistance. | Frequently off task. Cannot make progress without assistance. |
+| **Classwork** | Clear achievements made during each demo. Clear plan for start of each sprint. Shared learning along with functionality. Tasklist is completely up to date. | Some progress is demonstrated. Task List has some updates. | Progress is missing or too small. Worksheet is missing important information. | No progress is discernible. Worksheet is inadequate. |
+| **Professionalism** | No instances of being off task. Asks for hints occasionally, independently researches, demonstrates problem-solving abilities. | 1 or 2 reminders needed to be on task. Needs help with difficult issues but demonstrates ability to debug and grow independently. | 3+ reminders to get back on task. Consistently unable to resolve (minor) issues without assistance. | Frequently off task. Cannot make progress without assistance. |
