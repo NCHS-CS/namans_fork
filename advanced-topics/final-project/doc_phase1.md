@@ -21,7 +21,7 @@ nav_order: 10
 
 >This description will vary in length and detail. It could be as short as 4 sentences, or as long as 1 page. Target about 2-4 paragraphs long. Describe what the project does with enough detail that another developer could implement the project for you and get it pretty close. Sections below will allow another developer to get it very close! 
 >
->Provide a brief description of your project idea (2-3 sentences). Explain what your program will do and how it will use Java Swing for graphical development.
+>Provide a brief description of your project idea (2-3 sentences). Explain what your program will do and how it will use Java FX for graphical development.
 
 ## Purpose & Motivation:
 

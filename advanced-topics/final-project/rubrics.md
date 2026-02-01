@@ -19,15 +19,10 @@ There are three main rubric categories that are detailed in the following sectio
 
 ## <a name='Rubric'></a>Phase 1 (20 pts)
 
-- 80% of your grade for Phase 1 will be determined by providing all sections completed on time.
-- 20% will be provided once you have approval on your phase 1 to move to phase 2.
-
-The approval may be graded after the due date and will not be late. However, you must get this signed off and complete well before phase 2 is due to be graded without deduction.
-
 | **Category**               | **Criteria**                                                                         | **Points** |
 |----------------------------|--------------------------------------------------------------------------------------|------------|
-| **Project Description**    | - Provides a clear and concise overview of the project (2-4 paragraphs).<br>- Describes the project's functionality in sufficient detail for another developer to understand and potentially implement.<br>- Specifies the use of Java Swing for graphical development. | 5      |
-| **Features** | - Clearly defines the three areas of features.<br>- Features are realistic and achievable.<br>- Demonstrates understanding of prototype's role in project development.<br>- Shows progression and clear distinction between different feature levels (e.g. tabular like [this](design-document#example-feature-matrix))<br>- prototype features focus on initial validation and essential functionality.<br>- Core features encompass broader functionalities aimed at enhancing user experience and product value.     | 5         |
+| **Project Description**    | - Provides a clear and concise overview of the project (2-4 paragraphs).<br>- Describes the project's functionality in sufficient detail for another developer to understand and potentially implement.<br>- Specifies the features of Java FX for graphical development. | 5      |
+| **Features** | - Clearly defines the three areas of features.<br>- Features are realistic and achievable.<br>- Demonstrates understanding of prototype's role in project development.<br>- Shows progression and clear distinction between different feature levels<br>- prototype features focus on initial validation and essential functionality.<br>- Core features encompass broader functionalities aimed at enhancing user experience and product value.     | 5         |
 | **Purpose & Motivation**   | - Explains the rationale behind choosing the project.<br>- Articulates learning objectives and goals.<br>- Reflects personal or educational significance.                                                                              | 3  |
 | **Learning Targets and Challenge Goals** | - Lists at least three Learning Targets of sufficient scope for the project. | 2  |
 | **High Level Timeline** | - Lists High Level Milestones for the 10-11 weeks the project will fun for.<br>- 7 Development milestones are demonstrable pieces of functionality that can be checked off each Friday.<br>- Milestones are formatted correctly with no time estimates or individual assignments. | 5  |
