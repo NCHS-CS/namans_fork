@@ -8,20 +8,6 @@ nav_order: 12
 
 The following section includes detailed design document (Something every engineer will spend a lot of time on. Often the more time spent here the less time it takes to get the project work complete as you will save time by avoiding creating project elements that you may just have to throw out or redo)
 
-
-## Testing Strategy
-
-Define how you are going to test that your code is working correctly, how you will test edge conditions or errors happening and so forth. Make sure to build time in your schedule to get this done.
-
-An example for a testing strategy may be:
-
-| Test Category | Details |
-| ---- | ---- |
-| UI Testing (MVP) | At MVP we will provide students X,Y,Z our application with a sheet to fill in answers to the following questions:<br>- What can be improved?<br>- What did each of the icons on the main screen mean to you?<br>- _etc_ |
-| Manual Testing | Before each demo we will do the following manual tests:<br>- Go to main screen and click X, and make sure Y comes up<br>- _etc_ many more |
-| Automated testing | We will implement automated tests for the following classes/methods: <br>- MainScreen.java (all of it)<br>- CustomScreen.java:specialCalc<br>- _etc_ |
-| _Other testing_ | Any other type of testing you might be thinking of |
-
 ## High Level Architecture - Summary
 
 This section will most likely be hard to create.
@@ -371,14 +357,3 @@ This level of detail provides enough guidance without overwhelming the design do
 
 You must receive teacher approval to begin coding.
 
-**Students Signatures:** __________________________________________________________________
-
-
-**Date:** _________________________________________
-
-
-
-**Teacher Approval:** __________________________________________________________________
-
-
-**Date:** _________________________________________

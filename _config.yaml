@@ -37,7 +37,7 @@ enable_copy_code_button: true
 
 plugins:
   - jekyll-tabs
-  - jekyll-spaceship
+  # - jekyll-spaceship # turned off since gemini told me that spaceship doesn't run on github pages?? not sure.
   - jekyll-redirect-from
 
 include:
