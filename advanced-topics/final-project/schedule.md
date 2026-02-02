@@ -17,13 +17,13 @@ Your task list **must** have weekly milestones. You can update these each week b
 | Week # | Date | What |
 | :--- | :--- | :--- |
 | 6 | Mon, Feb 2 | Project Kickoff |
-| 7 | Mon, Feb 9 | `2/14` Design - Phase 1 - Outlining - **Due** | 
+| 7 | Mon, Feb 9 | `2/13` Design - Phase 1 - Outlining - **Due** | 
 | 8 | Mon, Feb 16 | _Mid-winter break_ |
 | 9 | Mon, Feb 23 | - |
 | 10 | Mon, Mar 2 | `3/2` Design - Phase 2 - Planning - **Due** |
 | 11 | Mon, Mar 9 | `3/9` Design - Phase 3 - Detailed Design - **Due** |
 | 12 | Mon, Mar 16 | - |
-| 13 | Mon, Mar 23 | `3/30` Prototype - Peer Feedback - **Due** |
+| 13 | Mon, Mar 23 | `3/27` Prototype - Peer Feedback - **Due** |
 | 14 | Mon, Mar 30 | - | 
 | 15 | Mon, Apr 6 | _Spring Break_ |
 | 16 | Mon, Apr 13 | - |
