@@ -10,6 +10,9 @@ nav_order: 10
 
 ## Welcome to North Creek High School Computer Science
 
+
+this is a piece of text written to test things
+
 At **North Creek High School**, we are dedicated to fostering a strong foundation in computer science, empowering students with problem-solving skills, creativity, and technical expertise. Our courses cover a wide range of topics, from introductory programming to advanced data science and artificial intelligence.
 
 ## Our Mission

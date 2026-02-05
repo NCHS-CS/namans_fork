@@ -6,8 +6,7 @@ title: Datasets Example
 
 # Datasets Example 
 
-{: .notice}
-Here is a short example. Your dataset documentation is likely to be longer!
+:::Here is a short example. Your dataset documentation is likely to be longer!
 
 ## Datasets Summary:
 
