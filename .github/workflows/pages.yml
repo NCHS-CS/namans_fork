@@ -106,6 +106,9 @@ jobs:
           BASE_URL: /notes
         run: myst build --html
 
+      - name: Copy static MyST 
+        run: cp -r external/cse163/_static _site/notes/
+
       - name: Merge MyST into Jekyll artifact
         run: |
           mkdir -p _site/notes
