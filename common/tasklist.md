@@ -8,7 +8,7 @@ parent: NCHS Computer Science
 
 A template for a task list has been provided for you [here](https://docs.google.com/spreadsheets/d/1F2ba3ekH2hg-wLWOCXHkyzi8Q8jizi4QHmhfRdichcU/edit?gid=0#gid=0).
 
-This Google Sheets task list template is designed to help students organize and track their tasks effectively. Here's a breakdown of its purpose and guidance on how to use it:
+This Google Sheets task list template is designed to help students organize and track their tasks effectively. Here's a breakdown of its purpose and guidance on how to use it. Note that there are several comments and notes in the document as well.
 
 **Purpose of the Task List Template:**
 
@@ -18,21 +18,19 @@ This Google Sheets task list template is designed to help students organize and 
 
 **Understanding the Template Columns:**
 
-1. **Task:** The name or description of the task to be completed.
+1. **Task:** The name or description of the task to be completed. Students fill this in.
 
-2. **Owner:** The individual responsible for the task.
+2. **Owner:** The individual responsible for the task. Add assignments for tasks (except milestones). Note that the `Name` pill only works for your own name so the first time use will require each team member to put their name info in. After this you can copy the names.
 
-3. **Status:** Indicates the current state of the task, such as "Not started," "In progress," or "Completed." Note "Milestone" means it's a weekly goal plan and not specifically something assigned for work. It should not have an initial estimate.
+3. **Status:** Indicates the current state of the task, such as "Not started," "In progress," or "Completed." Note "Milestone" means it's a weekly goal plan and not specifically something assigned for work. It should not have an initial estimate. You may add other status and change these if you like (e.g. consider adding "Blocked" if that's something that happens in your workflow or "Cancelled")
 
 4. **Initial Estimate & Multiplier (Expected Time):** An estimate of the time required to complete the task, which can help in planning and allocation. You put in your estimates here and the Values sheet will apply your estimate multiplier to give your actual expected time.
 
-5. **Week #:** Specifies the week during which the task is scheduled to be worked on or completed.
+5. **Week #:** Specifies the week during which the task is scheduled to be worked on or completed. Each week in a calendar year has a specific week number which you can usually enable in most calendar applications to see the specific week number.
 
-6. **Actual Time:** The actual amount of time spent on the task, useful for comparing against initial estimates. You can update your time spent against this over time.
+6. **Actual Time:** The actual amount of time spent on the task, useful for comparing against initial estimates. You can update your time spent against this over time. Students enter values for this as you complete tasks. The values sheet tab uses these values to update your multiplier estimate for future estimates.
 
-7. **User Story ID(s):** References to related user stories or project components, facilitating alignment with broader project goals. You can add another sheet to add your stories and ID's to reference here if needed.
-
-8. **Notes:** Additional comments or observations about the task, such as challenges faced or insights gained.
+7. **Notes:** Additional comments or observations about the task, such as challenges faced or insights gained.
 
 **How to Use the Template:**
 
