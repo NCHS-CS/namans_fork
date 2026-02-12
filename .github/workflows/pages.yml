@@ -110,6 +110,7 @@ jobs:
         run: |
           mkdir -p _site/notes
           rsync -a external/cse163/_build/html/ _site/notes/
+          cp -r external/cse163/_static _site/notes/
           touch _site/.nojekyll
       # --- end MyST ---
 

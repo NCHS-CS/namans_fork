@@ -107,7 +107,9 @@ Do not say vague things like, “To learn how to code the project”
 
 > Create your task list from [this template](https://docs.google.com/spreadsheets/d/1F2ba3ekH2hg-wLWOCXHkyzi8Q8jizi4QHmhfRdichcU/edit?usp=sharing) (You may modify but you should keep this as the minimum required information for a task list).
 >
-> You must include your phase 1 milestone task list in this document as markdown. (See below for an example; you can convert the google sheet to markdown using this tool here: https://tabletomarkdown.com/convert-spreadsheet-to-markdown/)
+> You must include your phase 1 milestone task list in this document as markdown. 
+ 
+See below for an example; you can convert the google sheet to markdown using this tool here: [https://tabletomarkdown.com](https://tabletomarkdown.com/convert-spreadsheet-to-markdown/)
 
 {: .notice-title }
 > Task list details
